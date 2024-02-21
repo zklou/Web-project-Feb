@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Modit</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
     <!-- page nav-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbarfa-inverse">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarfa-inverse">
             <a class="navbar-brand" href="#">Modit</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,32 +27,22 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Main<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                            aria-expanded="false">
-                            Brand
-                        </a>
-                        <div class="dropdown-menu">
-                            <!-- need make this a scroll manu to database-->
-                            <a class="dropdown-item" href="#">BMW</a>
-                            <a class="dropdown-item" href="#">Mitsubish</a>
-                            <a class="dropdown-item" href="#">Subaru</a>
-                            <a class="dropdown-item" href="#">Toyota</a>
 
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">My parts</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">My parts</a>
                     </li>
 
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                    <li class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Brand
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">BMW</a>
+                          <a class="dropdown-item" href="#">Mitsubishi</a>
+                          <a class="dropdown-item" href="#">Subaru</a>
                         </div>
-                      </div>
+                    </li>
+
                     
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
